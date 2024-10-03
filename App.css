@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    background-color: #272E24;
+    font-family: "Josefin Sans", sans-serif;
+    
+}
+
+.card {
+    height: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: auto;
+}
+
+
+/* HEADER CONTENT */
+header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 4px;
+}
+
+.headshot {
+    width: 19.813rem;
+    border: 2px solid #44633F;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom: 4px solid #44633F;
+    box-shadow: 15px 15px 20px -20px rgba(0,0,0,0.75);
+}
+
+.name {
+    color: #5A9367;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    font-weight: 700;
+}
+
+.jobTitle {
+    color: #A5C4D4;
+    text-align: center;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: .25px;
+}
+
+.linkedInButton {
+    background-color: #473E61;
+    border: none;
+    border-radius: 25px;
+    padding: .75rem 2.5rem;
+    margin: 1rem 0;
+    width: 13.563rem;
+}
+
+.linkedInButton:hover {
+    background-color: #593F62;
+}
+
+.icon {
+    background-color: transparent;
+    width: 80px;
+}
+
+
+/* MAIN CONTENT */
+.about {
+    display: flex;               
+    justify-content: center; 
+    padding-top: 1rem;
+    padding-bottom: 1cqmax;
+}
+
+.about > p {
+    width: 25rem;
+    color: #A5C4D4;
+    font-weight: 300; 
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    margin: 2rem 5rem;
+}
+
+ul.skills {
+    padding: 0;
+}
+
+.skills > li {
+    color: #F2F0EF;
+    background-color: #473E61;
+    border: 2px solid #44633F;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    font-weight: 300;
+    list-style-type: none;
+    text-align: center;
+    align-self: center;
+    justify-content: flex-start;
+}
+
+/* FOOTER */
+.footer > div {
+    position: absolute;
+    margin-top: 5rem;
+    justify-self: end;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid #44633F;
+    padding: 1rem;
+    bottom: 0;
+}
+.footer button {
+    border: none;
+}
+
+.footer img {
+    display: inline;
+    width: 1.875rem; 
+}
